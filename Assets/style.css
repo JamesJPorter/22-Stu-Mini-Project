@@ -1,0 +1,21 @@
+body {
+    background-color: pink;
+}
+
+#BIZNESS {
+    /* text-align: left; */
+    display: inline;
+}
+
+#nav {
+   text-align: right;
+   display: inline;
+}
+
+.navbar {
+    display: inline;
+}
+
+.forms {
+    color: black;
+}
