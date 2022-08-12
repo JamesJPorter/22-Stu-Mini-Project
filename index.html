@@ -8,32 +8,56 @@
     <title>Mini Project</title>
 </head>
 
-<div class="navbar">
-    <h1 id="BIZNESS"> MY BUSINESS </h1>
-
-    <ul id="nav">
-
-        <li> <a href="https://www.quiznos.com/">Home</a> </li>
-
-        <li> <a href="https://www.quiznos.com/about/online-feedback/">Contact Us</a> </li>
-
-        <li></li>
-    
-    </ul>
-
-</div>
-
 <header>
-
+    <div class="navbar">
+        <div>
+            <h1 id="BIZNESS"> MY BUSINESS </h1>
+        </div>
+    
+        <ul id="nav">
+            <li class="navitem"> <h2><a class="anchor" href="https://www.quiznos.com/">Home</a></h2> </li>
+    
+            <li class="navitem"> <h2> <a class="anchor"  href="https://www.quiznos.com/about/online-feedback/">Contact Us</a> </h2> </li>
+    
+            <li class="navitem"> <h2> <a class="anchor" > </a> </h2> </li>
+        </ul>
+    
+    </div>
 </header>
 
 <body>
 
-    <form class="forms">
-        <label for="fname">First Name</label>
-        <input type="text" placeholder="First Name" name="fname"/>
-        <label for-="Lname">Last Name</label>
-        <input type="text" placeholder="Last Name" name="Lname">
+<div id="title-img">
+    <img src="./Assets/Quiznos-Lobster-E1-10x8-300PI.jpg" caption="The BEST SANDO" alt="Quiznos Sandwich">
+</div>  
+
+    <form>
+    <div class="forms">
+        <div class="labels">
+            <label class="label" for="fname">First Name</label>
+            <input type="text" placeholder="First Name" name="fname"/>
+        </div>
+
+        <div class="labels">
+            <label class="label" for="Lname">Last Name</label>
+            <input type="text" placeholder="Last Name" name="Lname">
+        </div>
+        
+        <div class="labels">
+            <label class="label" for="email">Email</label>
+            <input type="text" placeholder="example@mailserver.com" name="email">
+        </div>
+
+        <div class="labels">
+            <label class="label" for="phone">Phone Number</label>
+            <input type="text" placeholder="(XXX)-YYY-ZZZZ" name="phone">
+        </div>
+
+        <div class="label">
+            <br>
+            <input type="submit" value="Submit">
+        </div>
+    </div>
     </form>
     
 </body>
