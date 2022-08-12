@@ -1,21 +1,66 @@
 body {
-    background-color: pink;
+    background-color: black;
 }
 
 #BIZNESS {
-    /* text-align: left; */
-    display: inline;
+    color: white;
 }
 
 #nav {
-   text-align: right;
-   display: inline;
+
 }
 
 .navbar {
-    display: inline;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: solid 4px green;
+    padding: 25px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.navitem {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#title-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+img {
+    width: 60%;
+}
+
+.anchor {
+    text-align: right;
+}
+
+.anchor:visited {
+    text-decoration: none;  
+    color: white;
 }
 
 .forms {
     color: black;
+    border: solid 4px green;
+    padding: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.forms .labels {
+    /* margin-left: 20px; */
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 15px;
 }
